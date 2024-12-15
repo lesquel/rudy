@@ -1,0 +1,27 @@
+{
+  "name": "my-solid_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.2",
+    "events": "^3.3.0",
+    "pouchdb": "^9.0.0",
+    "pouchdb-browser": "^9.0.0",
+    "process": "^0.11.10",
+    "solid-app-router": "^0.4.2",
+    "solid-js": "^1.9.3",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/pouchdb": "^6.4.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
